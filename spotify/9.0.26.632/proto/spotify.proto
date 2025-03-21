@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+// Define the outermost message
+message ClientTokenRequest {
+  int32 field1 = 1; // Corresponds to 1: 1
+
+  InnerMessage field2 = 2; // Corresponds to the nested structure starting at 2
+}
+
+// Define the nested message 2 (field2)
+message InnerMessage {
+  string app_version = 1; // Corresponds to field1: "9.0.26.632"
+  string hash_of_something = 2; // Corresponds to field2: "9a8d2f0ce77a4e248bb71fefcb557637"
+  NestedStructure field3 = 3; // Corresponds to the nested structure starting at 3
+}
+
+// Define the nested structure 3 (field3)
+message NestedStructure {
+  AnotherestedStructure field1 = 1; // Corresponds to 1 (the substructure)
+  string field2 = 2; // Corresponds to "22885829e1f9644f"
+}
+
+// Define the nested structure 3 (field3)
+message AnotherestedStructure {
+  SubStructure field1 = 1;
+}
+
+// Define the substructure 1 (field1 inside field3)
+message SubStructure {
+  SubSubStructure field1 = 1; // First level of substructure 1
+  
+  int32 field2 = 2; // Corresponds to field2: 11
+  int32 field3 = 3; // Corresponds to field3: 30
+  string field4 = 4; // Corresponds to field4: "Redmi Note 8"
+  string field5 = 5; // Corresponds to field5: "Redmi Note 8"
+  string field6 = 6; // Corresponds to field6: "xiaomi"
+  string field7 = 7; // Corresponds to field7: "Xiaomi"
+  int32 field8 = 8; // Corresponds to field8: 32
+  string field9 = 9; // Corresponds to field9: "com.spotify.music/5d08264b44e0e53fbccc70b4f016474cc6c5ab5c/54efe160-1e6e-42d7-a7d0-145fee8da8e9"
+}
+
+// Define a sub-substructure (field1 inside SubStructure)
+message SubSubStructure {
+  int32 field1 = 1; // Corresponds to 1: 1080
+  int32 field2 = 2; // Corresponds to field2: 2130
+  int32 field3 = 3; // Corresponds to field3: 392
+  int32 field4 = 4; // Corresponds to field4: 440
+  int32 field5 = 5; // Corresponds to field5: 440
+}

@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./spotify/9.0.26.632/proto/spotify/9/0/26/632/proto",
+        "./spotify/9.0.26.632/proto"
+    ]
+}
