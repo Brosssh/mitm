@@ -4,6 +4,8 @@ from mitmproxy import ctx, http
 from proto.spotify_pb2 import ClientTokenRequest
 import blackboxprotobuf
 
+
+
 def spoof_trial(flow: http.HTTPFlow):
         ctx.log.info("bootstrap called")
         ctx.log.info(type(flow.response.content ))
@@ -20,6 +22,9 @@ def spoof_trial(flow: http.HTTPFlow):
         
         message, typedef = blackboxprotobuf.protobuf_to_json(flow.response.content)
 
+        with open("dump_bootstrap_alt", "r") as f:
+            message = f.read()
+        
         message_json = json.loads(message)
 
         message = json.dumps(message_json, separators=(',', ':'))

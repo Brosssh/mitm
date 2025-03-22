@@ -12,8 +12,13 @@ def request(flow: http.HTTPFlow) -> None:
 
 def response(flow: http.HTTPFlow) -> None:
 
-    #if "bootstrap" in flow.request.pretty_url or "user-customization-servi" in flow.request.pretty_url:
-    #    spoof_trial(flow)
+    if "bootstrap" in flow.request.pretty_url or "user-customization-servi" in flow.request.pretty_url:
+        spoof_trial(flow)
 
     if "eager" in flow.request.pretty_url:
         remove_front_ads(flow)
+        
+    #Does nothing    
+    if "playlist-permission" in flow.request.pretty_url and "default-owner" not in flow.request.pretty_url:
+        #change_permission(flow)
+        pass
