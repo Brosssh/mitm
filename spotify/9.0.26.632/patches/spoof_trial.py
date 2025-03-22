@@ -1,5 +1,6 @@
 import gzip
 import json
+import sys
 from mitmproxy import ctx, http
 from proto.spotify_pb2 import ClientTokenRequest
 import blackboxprotobuf
@@ -22,21 +23,13 @@ def spoof_trial(flow: http.HTTPFlow):
         
         message, typedef = blackboxprotobuf.protobuf_to_json(flow.response.content)
 
-        with open("dump_bootstrap_alt", "r") as f:
-            message = f.read()
+        #with open("dump_bootstrap_alt", "wb") as f:
+        #    f.write(message.encode('utf-8'))
+
+        with open("dump_premium", "r") as f:
+            hex_string = f.read()
         
-        message_json = json.loads(message)
+        byte_data = bytes.fromhex(hex_string)
 
-        message = json.dumps(message_json, separators=(',', ':'))
-        
-        for patch in patches:
-                found = message.find(patch[0])
-                if found == -1:
-                        ctx.log.error(f"Patch {patch[0]} not found")
-                        continue
-                message = message.replace(patch[0], patch[1])
-                ctx.log.info(f"Patch {patch[0]} ok")
+        flow.response.content = byte_data
 
-        edited = blackboxprotobuf.protobuf_from_json(message, typedef)
-
-        flow.response.content = edited
