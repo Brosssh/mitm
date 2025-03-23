@@ -2,7 +2,7 @@ import gzip
 import io
 from mitmproxy import http, ctx
 from patches.signature_spoof import *
-from patches.spoof_trial import *
+from patches.premium_spoof import *
 from patches.misc import *
 
 
