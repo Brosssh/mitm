@@ -12,6 +12,9 @@ def request(flow: http.HTTPFlow) -> None:
 
     if "artistview/v1/artist" in flow.request.pretty_url:
         flow.request.url = flow.request.url + "&trackRows=true"
+        
+    if "user-customization-servi" in flow.request.pretty_url:
+        del flow.request.headers["if-none-match"]
 
 def response(flow: http.HTTPFlow) -> None:
     if "user-customization-servi" in flow.request.pretty_url:
