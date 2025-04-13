@@ -1,0 +1,2710 @@
+{
+  "accessory-state-manager::enable_ble_audio_devices_support": {
+    "type": "bool",
+    "value": 1
+  },
+  "accessory-state-manager::should_activate_android_auto_route": {
+    "type": "bool",
+    "value": 1
+  },
+  "accessory-state-manager::should_use_media_router": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-abp::is_consumption_tracker_top_up_entry_point_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-account-management-platform::prototype_entrypoint_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-accountswitching-addaccountpage::is_add_account_page_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-accountswitching-onboarding::drawer_nudge_count": {
+    "type": "int",
+    "value": 1
+  },
+  "android-accountswitching-switcherstateimpl::max_accounts": {
+    "type": "int",
+    "value": 10
+  },
+  "android-accountswitching::enable_account_switching": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-adsinternal-playback::enable_enhanced_volume_observer": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-android-auto-mediabrowserintegration::first_resume_wait_for_synced_player_state": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-artist-list-sheet::enable_artist_list_sheet_page_api": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audio-focus-audio-focus-impl::check_audio_track_in_abandon_audio_focus": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook-playerlistener::should_stop_player_when_capped": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-audiobook::replace_chapter_play_with_context_menu": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_display_image_carousel": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_enable_extras_tab": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_enable_mark_as_finished_on_home": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_fetch_audiobook_companion_content_metadata": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_fetch_audiobook_supplements_metadata": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_move_attachments_to_extras_tab": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_simplify_chapter_row_ux": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_use_content_agnostic_categories_element": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_use_content_agnostic_context_menu_button": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_use_content_agnostic_curation_button": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_use_content_agnostic_download_button": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobook::should_use_content_agnostic_play_button": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobrowse-clipplayerbetamax::should_mute_initially": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-audiobrowse-clipplayerbetamax::use_fake_event_generator": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-betamax-context-player::video_ads_caching_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-birthdays-gift::feature_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-bookmarks::highlight_row_context_menu_on_your_highlights_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-bookmarks::highlight_row_for_your_highlights_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-bookmarks::ignore_highlightability_in_highlight_curation": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-btpermissions::disable_feature": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-campaign-routing::wrapped_routing_destination": {
+    "type": "str",
+    "value": "fallback"
+  },
+  "android-car-mobile-jumpstart::jumpstart_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-collection-content-impl::mark_as_played_endpoint_options": {
+    "type": "str",
+    "value": "Both"
+  },
+  "android-companion-content-scroll-card::enable_carousel_auto_scroll": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-companion-content-scroll-card::enable_carousel_scroll_card_audiobooks": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-companion-content-scroll-card::enable_carousel_scroll_card_episodes": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-concerts-near-you::enable_concerts_near_you_playlist_v2": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-connectivity-connectiontypeflags::net_capabilities_oem_paid_support_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-connectivity-connectiontypeflags::should_use_single_thread": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-connectivity::plain_instance_max_requests": {
+    "type": "int",
+    "value": 250
+  },
+  "android-connectivity::plain_instance_max_requests_per_host": {
+    "type": "int",
+    "value": 50
+  },
+  "android-content-access-paywall::enable_episode_uri_upsell_link": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-content-alternatives-widget::is_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-context-menu::hide_playlist_radio": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-context-menu::remove_ads_upsell_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-contextual-attributes-manager::output_device_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-crash-reporting::enable_android_app_exit_reason": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-deeplink-experience::is_playback_failure_tracker_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-device-predictability::enable_auto_dismiss": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-device-predictability::enable_where_to_play": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-engagesdk-engagecontinuationcluster::enable_continuation_cluster": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-engagesdk-engagecontinuationcluster::observe_recently_played": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-engagesdk-engagecontinuationcluster::schedule_on_start": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-engagesdk-engagerecommendationscluster::enable_recommendations_cluster": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-engagesdk-engagerecommendationscluster::schedule_on_start": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-engagesdk-engagesigninrequest::enable_signin_request": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-episode-description-widget::is_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-external-integration-service::use_authenticated_scope": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-extras-audiobook::enable_carousel_as_grid": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-audiobook-pre-release::is_permission_dialog_on_presave_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-blend-invitation::group_blends_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-blend-members::group_blends_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-blend-taste-match::data_stories_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-blend-taste-match::group_blends_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-campfire::campfire_feature_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-campfire::obfuscate_urls": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-campfire::reading_rollout_phase": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-campfire::shared_by_chip_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-content-filtering::enable_content_filtering": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-create-menu::create_menu_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-creativeworkplatform::optimistic_play_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-free-tier-artist::disable_blocked_content_for_gen_alpha": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-free-tier-artist::enable_autoplay": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-free-tier-track::enable_artist_page_navigation": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-freeondemand::enable_free_on_demand_experiment": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-login::enable_alternative_code_verification_channel": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-music-premium-messaging::premium_message_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-notifications-permissions::enable_reinstall_notifications_prompt": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-notificationsettings::is_permission_card_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-notificationsettings::is_permission_dialog_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-notificationsettings::is_preferences_v7_endpoint_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-notificationsettings::nen_opt_in_position": {
+    "type": "int",
+    "value": 2
+  },
+  "android-feature-notificationsettings::preferences_show_comments_category": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-now-playing-queue::dismiss_queue_icon": {
+    "type": "str",
+    "value": "chevron"
+  },
+  "android-feature-now-playing-queue::enable_queue_bottom_sheet": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-nowplaying-queue-bottom-sheet::enable_sleep_timer_for_music": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-nowplaying::extended_lifecycle": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-nowplayingbar::enable_queued_badge": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-npv-artist-bio::enable_reordering_based_on_affinity": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-npv-artist-bio::enable_reordering_based_on_follow_state": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-playlist-creation-flags::custom_resolver_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-entity::about_tab_trailer_in_header": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-entity::enable_about_tab": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-entity::enable_greenroom_extension": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-entity::gated_podcast_subscriber_indicator_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-entity::prefetch_episodes": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-podcast-entity::show_publisher_as_button_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-entity::video_thumbnail": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode-cwp::enable_creative_work_full_slice_plugins_on_episode": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode::enable_comments_card": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode::enable_creative_work_on_episode": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode::enable_event_source_subscription_on_io_scheduler": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode::use_elements_as_cwp_plugins": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode::video_thumbnail": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-podcast-episode::vodcast_auto_opens_npv": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::billing_v2_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::enable_available_plans_v2": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::enable_member_details_page": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::enable_pending_graduation_request_banner": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::pam_member_invite_page_v2_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::pam_show_billing_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::plan_details_v2_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-premium-account-management::plan_overview_v2_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-prerelease::listening_party_card_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-prerelease::push_permission_alert_cdp_album_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-profile::find_friends_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-profile::profile_completion_sheet_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-profile::see_all_round_buttons_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-queue::enable_queue_snackbar_action": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-readalong::readalong_episode_page_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-reporting::enable_artist_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-reporting::enable_audiobook_chapter_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-reporting::enable_canvas_track_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-reporting::enable_episode_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-reporting::enable_promo_episode_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-reporting::enable_show_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::album_presave_second_step_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_album_explicit_badge": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_album_new_releases_signifier": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_curation_button_swap": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_editorial_on_demand_playback": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_highlight_component": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_interim_video_filter": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::enable_recommendations_as_section": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::genre_row_spotify_product_remove_subtitle_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::playlist_mfy_logo_first_step_subtitle": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::recents_list_writes_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::save_actions_first_step_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-search::two_step_search_autocomplete_max_no_of_hits": {
+    "type": "int",
+    "value": 20
+  },
+  "android-feature-search::updated_hierarchy_episodes_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-search::video_metadata_episode_enabled": {
+    "type": "str",
+    "value": "wide"
+  },
+  "android-feature-show-page-cwp::back_to_top_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-show-page-cwp::creative_work_listendpoint_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-show-page-cwp::should_use_extened_touch_area": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-show-page-cwp::tabs_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-show-page-cwp::video_thumbnail": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-feature-spotify-go::spotify_go_access_control": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-transcript-companion-content::enable_media_session": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-transcript-excerpts::enable_excerpts": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-transcript-npv::enable_canvas": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-transcript-npv::enable_companion_content_mode": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-transcript-npv::enable_static_transcript": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-transcript-npv::enable_transcript_npv": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-video::core_fetch_data_source_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-video::release_all_players_on_shutdown": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-feature-video::video_sai_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::episode_page_banner_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::episode_page_header_badge_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::episode_page_redirect_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::episode_row_badge_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::extras_badge_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::gated_content_widget_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::metadata_load_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::show_page_banner_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gated-content-relations::upsell_flow_dialog_override_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha-blocking::is_blocking_after_report_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha-blocking::is_entry_point_artist_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha-blocking::is_entry_point_track_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha-data-download::is_data_download_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha-settings::is_account_closure_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha::forced_graduation_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha::graduation_messaging_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-gen-alpha::graduation_settings_entry_point_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-home-performanceinstrumentation::enable_subfeed_instrumentation": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-learning-flags::is_header_access_row_view_hidden": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-learning-flags::is_header_course_discount_info_hidden": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-flags::is_header_course_duration_hidden": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-flags::is_header_course_progress_hidden": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-flags::is_header_info_card_view_hidden": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-learning-flags::is_header_play_button_hidden": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-flags::is_restricted_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-flags::is_tea_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-learning-lesson-flags::is_lock_icon_duration_hidden": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-lesson-flags::is_now_playing_icon_hidden": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-learning-lesson-flags::is_play_button_hidden": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-aligned-curation-flags::aligned_curation_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-aligned-curation-flags::audiobooks_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-aligned-curation-flags::checkmark_track_row_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-aligned-curation-flags::checkmark_track_row_in_all_songs_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-aligned-curation-flags::quick_actions_in_context_menu_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-aligned-curation-flags::rich_snackbar_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-assisted-curation::episode_preview_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-lib-assisted-curation::episode_search_preview_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-lib-assisted-curation::search_preview_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-lib-collection-liked-songs-flags::enable_default_linear_play": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::content_feed_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::enable_visual_ref_chips": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::header_subtitle_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::new_rows_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::play_action_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::tooltip_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lib-content-feed-flags::unplayed_filter_enabled": {
+    "type": "str",
+    "value": "enabled"
+  },
+  "android-libs-account-linking-nudges::enable_account_linking_nudge": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-account-linking-nudges::enable_chromecast_filtering": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-account-linking-nudges::enable_device_picker_linking": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-account-linking-nudges::enable_google_assistant_linking": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-account-linking-nudges::enable_v2_device_picker_linking": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-ads-common::ads_android_turn_on_comscore": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-ads-common::enable_ad_event_slot_id": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-allboarding::use_content_stack": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-betamax-royalty-stream-reporting::stream_reporting_tracker_non_context_player_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-blend::add_to_blend_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-blend::remove_from_blend_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-checkout-flags::gpb_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-checkout-flags::native_choice_screen": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-checkout-flags::native_uc_choice_screen": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_authenticated_web_flow": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_chrome_custom_tabs_for_third_party": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_concepts_filter": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_event_page_concepts": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_live_events_album_section": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_live_events_playlist_section": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_m1_events_retargeting_feature": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_report_concert_issue": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_retargeting_artists_events_page": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-concerts-properties::enable_venue_entity_page": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-daccomponents::long_click_on_client_created_cards": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-endless-feed::enable_iris_transition_animation": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-endless-feed::enable_share_context_menu_item": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-endless-feed::enable_sillywalk_core_state_machine": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-libs-endless-feed::use_animation_interpolation": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-esperanto-image-loading::use_resolved_image_endpoint": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::ended_state_uses_iteration_count": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::error_dialogs_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::greenroom_mode_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::is_upcoming_state_check_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::livestream_page_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::reporting_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-greenroom::spotify_live_rebranding_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-home-dac-components::disable_main_feed_snapping": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-home-dac-components::enable_dac_page_loading_time_tracking": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-home-dac-components::enable_first_snappable_item": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-home-dac-components::enable_header_v2": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-home-dac-components::enable_snapping": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-libs-home-dac-components::max_number_of_shortcuts": {
+    "type": "int",
+    "value": 8
+  },
+  "android-libs-home-dac-page::enable_fallback_handling": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-hugs::apply_content_area_padding": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-lyrics::enable_cc_sdk": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-lyrics::enable_lyrics_v2": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-marquee::enable_marquee": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-newplaying-default-mode::use_element_api": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-newplaying-feedback-mode::use_element_api": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-newplaying-podcast-mode::use_element_api": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-ads-mode::survey_ad_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-carousel-video::enable_pinch_to_zoom": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-carousel-video::show_seek_frames_when_scrubbing": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-commonviews::playback_quality_on_context_menu": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-container::enable_swipe_to_close": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-elements-audiovideotransition::is_vodcast_optionality_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-elements-seekbar::is_hello_kitty_easter_egg_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-elements-seekbar::is_pokemon_easter_egg_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-elements-seekbar::is_wicked_easter_egg_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-elements-segmented-seekbar::audiobook_full_progress": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-elements-trackinfo::enable_queued_badge": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-free-tier-mode::use_element_api": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-scroll-widgets-live-upsell::live_upsell_card_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-scroll-widgets-podcast-sponsors::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-nowplaying-scroll-widgets-podcast-sponsors::music_npv_leavebehinds_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-on-demand-sharing::enable_on_demand_sharing": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-on-demand-trials::enable_call_trials_facade": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-playlist-entity-configuration::exclude_unavailable_items_for_spotify_playlists": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-libs-playlist-entity-configuration::hide_entity_go_to_playlist_radio_option": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-playlist-entity-configuration::recommendation_education_option_in_toolbar_menu_behavior": {
+    "type": "str",
+    "value": "show_for_format_lists"
+  },
+  "android-libs-playlist-entity-modes-blend::edit_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-episode-row::vodcast_auto_opens_npv": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-common::show_updated_ui": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-polls::enable_element": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-polls::enable_endpoint_v2_migration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-polls::enable_podcast_poll_reporting": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-polls::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-polls::should_show_polls_feature_in_episode_page": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-podcast-interactivity-polls::should_show_polls_feature_in_npv": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-promodisclosure::allow_context_menu_item": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-promodisclosure::show_about_recommendations_in_playlist_header": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-promodisclosure::show_about_recommendations_in_queue_header": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-quickplay::quickplay_mix": {
+    "type": "str",
+    "value": "seed_mix_artist"
+  },
+  "android-libs-social-listening::auto_dismiss_nearby_join_sheets": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::can_takeover_parser_v2": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::check_with_party_pooper_before_showing_dialog": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::discovered_sessions_foreground_refresh_interval_seconds": {
+    "type": "int",
+    "value": 60
+  },
+  "android-libs-social-listening::enable_group_session_now_playing_bar_anchor": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_group_session_snackbar_messaging_service": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_jam_social_radar_receiver": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_jam_social_radar_sender": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_new_free_tier_experience": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_new_queue_jam_header_settings_tooltip": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_nowplayingview_group_session_queue_entry_point": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_permissions_restriction_toggle": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_social_radar_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_social_radar_invite": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_track_results_context_menu_item": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::enable_volume_control_toggle": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::filter_invitation_pop_up_if_user_is_listening_or_with_headphone": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::filter_out_non_bluetooth_available_jams_in_nearby_listening": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::get_device_info_from_backend_when_loading_dialogs": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::ipl_participant_onboarding_slate_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-libs-social-listening::jam_awareness_received_tokens_eviction_interval_millis": {
+    "type": "int",
+    "value": 1000
+  },
+  "android-libs-social-listening::jam_awareness_received_tokens_expiration_threshold_millis": {
+    "type": "int",
+    "value": 6000
+  },
+  "android-libs-social-listening::jam_resolution_request_aggregator_timer_duration_millis": {
+    "type": "int",
+    "value": 5000
+  },
+  "android-libs-social-listening::jam_social_radar_sender_connected_devices_buffer_time_seconds": {
+    "type": "int",
+    "value": 5
+  },
+  "android-libs-social-listening::join_nearby_popup_max_age_ms": {
+    "type": "int",
+    "value": 60000
+  },
+  "android-libs-social-listening::navigate_to_queue_on_join": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::observe_available_jams_in_nearby_listening": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-listening::periodic_jams_polling_interval_seconds": {
+    "type": "int",
+    "value": 5
+  },
+  "android-libs-social-listening::queue_header_style": {
+    "type": "str",
+    "value": "sheet"
+  },
+  "android-libs-social-listening::use_core_http_url": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-radar::enable_advertiser": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-radar::enable_scanner": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-radar::enable_social_radar_feature": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-social-radar::nearby_candidate_threshold_distance_close": {
+    "type": "int",
+    "value": 300
+  },
+  "android-libs-storage::touch_dirs_on_background": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-your-episodes-flags::enable_sortby_show_name": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-libs-your-episodes-flags::text_filter_and_sort_options_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-audiobook-rows-audiobook::use_compose_version": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-episode-shared::use_element_row": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-listenlater-headeractions-reordering::reordering_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-list-ux-platform-consumers-listenlater-shared::sort_and_filter_row_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-standard-header::hide_sort_button_when_editable": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-standard-headerdescription::use_expandable_description_for_all_playlists": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-standard-shared::show_curation_actions": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-list-ux-platform-consumers-storyshared::enable_stories_in_header": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-liveroom-listening-party::initial_message_buffer_millis": {
+    "type": "int",
+    "value": 100
+  },
+  "android-liveroom-listening-party::max_live_message_delay_millis": {
+    "type": "int",
+    "value": 20000
+  },
+  "android-liveroom-listening-party::music_playback_coordination_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-liveroom-listening-party::periodic_message_buffer_millis": {
+    "type": "int",
+    "value": 100
+  },
+  "android-liveroom-listening-party::seconds_to_rewind_live_messages": {
+    "type": "int",
+    "value": 120
+  },
+  "android-liveroom-livestreampagefragment::join_party_on_web_cta_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-liveroom-livestreampagefragment::stream_to_main_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-login-flow-partner-banner::is_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-lyrics-share-composer::is_x_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-lyrics-share-controller::enable_composer_share": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-markasplayed::is_mark_as_finished_copy_enabled_for_podcast": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-markasplayed::mark_as_played_endpoint_options": {
+    "type": "str",
+    "value": "Both"
+  },
+  "android-media-browser-service-integrations::remote_recently_played_for_pme_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-media-browser-service-restriction::restrict_check_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-media-session-companion-content::enable_lock_screen": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-media-session::restrict_playing_state_when_connect_car_is_active": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-merch-widget::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-merch-widget::is_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_album_inline_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_artist_inline_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_client_messaging_platform": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_likedsongs_inline_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_playlist_inline_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_track_inline_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-messaging-clientmessagingplatform-clientmessagingplatformproperties::enable_yourlibrary_inline_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-metric-keeper::enable_page_monitor_plugin": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-libs-po-session-counter::po_banner_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-libs-video-captions::subtitles_autogenerated_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-libs-voice-assistant-flags::voice_assistants_alexa_dialog_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-libs-voice-assistant-flags::voice_assistants_settings_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-videos-flags::add_to_button_saves_association": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-videos-flags::auto_play_silent_failure_check": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-videos-flags::deeplink_georestricted_play_association": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-music-videos-flags::heart_button_saves_association": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-musicappplatform-navigation::max_same_intent_handle_count_threshold": {
+    "type": "int",
+    "value": 10
+  },
+  "android-musicappplatform-navigation::use_cloned_intent_for_routing_and_handling": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-nowplaying-scroll::widget_async_acc_policy_timeout_ms": {
+    "type": "int",
+    "value": 2000
+  },
+  "android-nowplaying-scrollsection::enable_multiple_reordering_requests": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-nowplaying-scrollsection::enable_personalised_reordering": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-nowplaying-scrollsection::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-nowplaying-seektimestamp::video_seek_timestamp_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-page-activity::edge_to_edge_enabled_by_default_in_page_activity": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-perf-tracking::battery_instrumentation_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-perf-tracking::should_log_cold_startup_subdurations": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-perf-tracking::should_send_time_measurements": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-playlist-creation-createplaylistmenuimpl::create_button_position": {
+    "type": "str",
+    "value": "right"
+  },
+  "android-playlist-creation-createplaylistmenuimpl::show_start_jam_row": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-playlist-curation-image-picker::use_compose": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-playlist-curation-playlist-tuner-configuration::max_playlist_size": {
+    "type": "int",
+    "value": 2000
+  },
+  "android-podcast-player::stop_player_on_context_end_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-prerelease-card-now-playing-widget::enable_prerelease_countdown_card_on_tablets": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-prerelease-card-now-playing-widget::enable_prerelease_countdown_widget": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-prerelease-card-now-playing-widget::enable_reordering_for_presaved_releases": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-proactiveplatforms-npvwidget::catch_pending_intent_security_exception": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-proactiveplatforms-npvwidget::enhanced_recommendation_signifier": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-proactiveplatforms-npvwidget::recommendations_cache": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-proactiveplatforms-npvwidget::tall_layout_titles": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-recents-propertiesimpl::replace_lh_entrypoint_with_recents_in_side_drawer": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-recommendations-interactors::enable_ignore_in_recs": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-referrals-settings::premium_referrals_settings_item_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-reinventfree-smartshufflerecommednationsimpl::enable_shuffle_only_shuffle_state_policy_resolver": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-reinventfree-smartshufflerecommednationsimpl::enable_tri_state_shuffle_toggle_on_playlist_for_all_product_tiers": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-reinventfree-smartshufflerecommednationsimpl::enable_ui_state_override_for_pick_and_shuffle_shuffle_state_policy_resolver": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-reinventfree-smartshufflerecommednationsimpl::use_smart_shuffle_core_for_showing_premium_upsell": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-remote-config-bootstrap-quasar-service::login_trials_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-screenshotdetector::is_screenshot_detection_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-share::are_new_share_cards_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-share::entity_sticker_width_percentage": {
+    "type": "int",
+    "value": 68
+  },
+  "android-share::is_audio_clip_on_instagram_stories_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-share::is_idaho_feed_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-share::is_idaho_messages_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-share::is_music_video_sharing_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-share::is_share_menu_360_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-share::is_share_sheet_page_api_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-show-description-widget::enable_reordering_based_on_follow_state": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-show-description-widget::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-show-description-widget::is_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-contentdelivery::read_ahead_batch_size_kbytes": {
+    "type": "int",
+    "value": 512
+  },
+  "android-system-contentdelivery::read_ahead_initial_kbytes": {
+    "type": "int",
+    "value": 512
+  },
+  "android-system-contentdelivery::read_ahead_minimum_capacity_kbytes": {
+    "type": "int",
+    "value": "EMPTY"
+  },
+  "android-system-contentdelivery::use_buffered_read_ahead": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-contentdelivery::use_io_thread_esperanto_transport": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-highlightsstats::sharing_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::enable_focusable_sections": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::enable_reimpressions": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::enable_snapping": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-system-home-evopage::enable_video_preview_carousel": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::preview_cards_call_context_player": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::use_multiplayer_on_audiobooks_subfeed": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::use_multiplayer_on_music_subfeed": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-home-evopage::use_multiplayer_on_podcasts_subfeed": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-list-ux-platform-consumers-artist-sections-artistlinkrow::enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::delay_sending_tap_signal": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::detect_and_resolve_smart_linear": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::npv_negative_signal_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::smart_shuffle_lens_timeout": {
+    "type": "int",
+    "value": 8000
+  },
+  "android-system-smart-shuffle::smart_shuffle_liked_songs_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::smart_shuffle_show_sheet_count": {
+    "type": "int",
+    "value": 2
+  },
+  "android-system-smart-shuffle::smart_shuffle_user_created_playlists_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::smart_shuffle_using_lens_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-system-smart-shuffle::third_party_playlist_support": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-tap-onboarding::accessory_onboarding_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-tap-onboarding::sony_headphones_onboarding_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-trackcredits-widget::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-trackcredits-widget::hide_artist_images": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-trackcredits-widget::is_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-transcript-link::enable_static_transcript": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-transcript-scroll-card::enable_read_along": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-transcript-scroll-card::exclude_companion_content": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-ubi-page-heartbeat::enable_heartbeat": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-ubi-page-heartbeat::heartbeat_interval_seconds": {
+    "type": "int",
+    "value": 3600
+  },
+  "android-uilogic::enable_record_visible_events": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-voiceassistants-musicappvoiceassistants::prepare_player": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-voting-playlist::enable_entrypoint_section": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-voting-playlist::enable_screenshot_detection": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-voting-playlist::enable_share_header_action": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watch-feed-components::double_tap_to_like_gesture_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watch-feed-components::entity_row_v2_redesign_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watch-feed-components::long_press_to_hide_overlays_gesture_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watch-feed-components::two_columns_layout_variant": {
+    "type": "str",
+    "value": "linear"
+  },
+  "android-watch-feed::dismiss_watchfeed_after_being_backgrounded": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watch-feed::unmute_by_volume_increase_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watch-feed::vertical_scroll_onboarding_completion_strategy": {
+    "type": "str",
+    "value": "cooldown"
+  },
+  "android-watchfeed-carousel::npv_scroll_watchfeed_carousel_entrypoint_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-watchfeed-entrypointcardbinders::home_entrypoint_use_focus_api_states": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "android-watchfeed-npvscrollcard::enable_reordering_when_personalized_playlist": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-wear-activation::onboarding_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "android-webview-checkout::external_redirect_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "apps-music-features-widget::material_you_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "apps-music-libs-canvas::canvas_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "apps-music-libs-canvas::explicit_canvas_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "apps-music-libs-eventsender::background_worker_send": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "apps-music-libs-eventsender::heartbeat_interval": {
+    "type": "int",
+    "value": 300
+  },
+  "apps-music-libs-eventsender::heartbeat_retry_interval": {
+    "type": "int",
+    "value": 30
+  },
+  "apps-music-libs-eventsender::send_events_on_bcd_event": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "apps-music-libs-eventsender::send_full_ess2": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "comments-list::enable_multi_reactions": {
+    "type": "bool",
+    "value": 1
+  },
+  "comments-sheet::enable_comments_deep_linking": {
+    "type": "bool",
+    "value": 1
+  },
+  "comments-widget::enable_comments_npv_widget": {
+    "type": "bool",
+    "value": 1
+  },
+  "comments-widget::enable_reordering": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::call_audio_manager_volume_in_background_thread": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::cast_app_id_config_debug": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "connect-flags::cast_connect_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::connect_nudge": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_app_install_dialogs_and_states": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_cast_sdk_async_init": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_new_context_menu": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_new_device_picker": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_playback_grabber_api": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_simple_discoverer": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::enable_wired_connection_type_audio_route_change": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::hide_social_listening_info_from_connect_npb": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::local_audio_playback_interceptor_flag": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::media_router_provider_integration": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::off_network_nudge": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::off_network_push_notification": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::remote_local_split_device_picker": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::support_for_external_cast_session_start": {
+    "type": "bool",
+    "value": 1
+  },
+  "connect-flags::use_audio_route_forwarding": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-ads::check_active_player_from_play_origin": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-ads::log_ad_transparency_event": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-ads::music_adt_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-ads::prevent_duplicate_ad_requests_for_slot": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-ads::state_update_on_ad_config_loaded": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-ads::use_estimator": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-audio-track-player-feature::allow_fades_longer_than_duration": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-audio-track-player::handle_track_deferred_close_after_stream_resumption": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-audiobook-sequence-provider-feature::enable_audio_capping_notification": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-bitrate::net_fortune_apply_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-bitrate::net_fortune_coalesce_playback_id": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-bitrate::net_fortune_fetch_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-bitrate::net_fortune_use_playback_stats": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-collection-feature::core_collection_endpoint_logger_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-collection-feature::local_bans_in_collection": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-common-capping::enable_common_capping": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-common-capping::init_retry_amount": {
+    "type": "int",
+    "value": 13
+  },
+  "core-connect-feature::block_installations_to_lg_tvs_with_dash": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-connect-feature::cast_minimum_ms_to_abort_by_transfer_to_same_device": {
+    "type": "int",
+    "value": 10000
+  },
+  "core-connect-feature::command_rate_limiter_window": {
+    "type": "int",
+    "value": 60000
+  },
+  "core-connect-feature::enable_lg_remote_installation": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-connect-feature::enable_refetching_info_on_network_reconnection": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-connect-feature::install_over_connect_timeout": {
+    "type": "int",
+    "value": 180
+  },
+  "core-connect-feature::lg_wol_minimum_ms_to_abort_by_transfer_to_same_device": {
+    "type": "int",
+    "value": 30000
+  },
+  "core-connect-feature::max_allowed_commands_per_window": {
+    "type": "int",
+    "value": 60
+  },
+  "core-connect-feature::observe_cpp_system_audio_output": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-connect-feature::player_state_changed_putstate_throttling_window": {
+    "type": "int",
+    "value": 50
+  },
+  "core-connect-feature::playstation_minimum_ms_to_abort_by_transfer_to_same_device": {
+    "type": "int",
+    "value": 15000
+  },
+  "core-connect-feature::samsung_wol_minimum_ms_to_abort_by_transfer_to_same_device": {
+    "type": "int",
+    "value": 20000
+  },
+  "core-connect-feature::show_offline_devices_in_core": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-connect-feature::sonos_minimum_ms_to_abort_by_transfer_to_same_device": {
+    "type": "int",
+    "value": 15000
+  },
+  "core-content-formats-feature::core_update_pub_date_index_on_list_update": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-content-formats-feature::list_platform_episode_loader_throttling_milliseconds": {
+    "type": "int",
+    "value": "EMPTY"
+  },
+  "core-content-formats-feature::list_platform_request_timeout_seconds": {
+    "type": "int",
+    "value": 40
+  },
+  "core-context-track-color::enable_context_track_color": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-decorators-feature::batch_artist_v4_lookups": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_audio_associations": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_companion_content": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_podcast_html_description": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_podcast_poll": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_podcast_qna": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-context-track-exts::enable_podcast_sponsored_content": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_storylines": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_transcripts": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-context-track-exts::enable_video_associations": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-download::fetch_full_internal_audio_show_episode": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-download::include_playback_id_header": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-download::internal_request_size_data_kb": {
+    "type": "int",
+    "value": 3072
+  },
+  "core-download::internal_request_size_type": {
+    "type": "str",
+    "value": "Data"
+  },
+  "core-download::passthrough_episode_timeout_is_permanent": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-equalizer-feature::enable_equalizer": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-image-resolve::enable_projection_map_loading": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-image::enable_image_io_thread": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-image::enable_image_resolve": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-image::enable_online_image_resolve": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-image::enable_online_size_image_resolve": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-mdata::error_backoff_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-media-parsers-feature::use_platform_media_parser_for_image_loading": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-metadata-feature::audio_files_prefetch_critical": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-metadata-feature::episode_auto_refresh_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-metadata-feature::track_auto_refresh_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-offline-playable-cache-esperanto-feature::opc_ap_max_iterations": {
+    "type": "int",
+    "value": 60
+  },
+  "core-offline-playable-cache-esperanto-feature::opc_deduplication_method": {
+    "type": "str",
+    "value": "CanonicalTrack"
+  },
+  "core-offline-playable-cache-feature::audio_index_batch_period_seconds": {
+    "type": "int",
+    "value": 31
+  },
+  "core-offline-playable-cache-feature::audio_index_job_delay_seconds": {
+    "type": "int",
+    "value": 31
+  },
+  "core-offline-playable-cache-feature::audio_index_job_period_seconds": {
+    "type": "int",
+    "value": 86413
+  },
+  "core-offline-playable-cache-feature::audio_index_max_batch": {
+    "type": "int",
+    "value": 512
+  },
+  "core-offline-playable-cache-feature::audio_index_should_send_report": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-offline::always_allow_key_cache": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-offline::custom_abp_expiry_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-offline::default_primary_resource_type": {
+    "type": "str",
+    "value": "Video"
+  },
+  "core-offline::item_state_cache_size": {
+    "type": "int",
+    "value": 5000
+  },
+  "core-offline::metadata_5xx_backoff_seconds": {
+    "type": "int",
+    "value": 900
+  },
+  "core-offline::metadata_refresh_interval_seconds": {
+    "type": "int",
+    "value": 3600
+  },
+  "core-offline::metadata_wait_for_track_info_complete": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-offline::offline2_max_backoff_delay_milliseconds": {
+    "type": "int",
+    "value": 512000
+  },
+  "core-offline::offline2_over_http": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-offline::offline2_write_resources_details_delay_milliseconds": {
+    "type": "int",
+    "value": 60000
+  },
+  "core-offline::update_all_batch_interval_milliseconds": {
+    "type": "int",
+    "value": 50
+  },
+  "core-offline::update_all_batch_size": {
+    "type": "int",
+    "value": 750
+  },
+  "core-offline::update_all_interval_milliseconds": {
+    "type": "int",
+    "value": 200
+  },
+  "core-pending-events::send_pes_as_metrics_snapshot": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-pending-events::stats_enable": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-pending-events::stats_interval_seconds": {
+    "type": "int",
+    "value": 300
+  },
+  "core-pending-events::use_event_sender_persistence_completion": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-playback-platform::enable": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playback-platform::enable_local_fetchers": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::audiobooks_common_capping_stopping_node": {
+    "type": "str",
+    "value": "Enabled"
+  },
+  "core-player::context_prefetcher_coalesce_metadata_requests": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_audiobook_gating_support": {
+    "type": "str",
+    "value": "Enabled"
+  },
+  "core-player::enable_audiobook_navigation_node": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_client_side_show_resume_episode": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_do_not_publish_trackless_intermediate_states": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_keeping_playback_session_on_transfer": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_licensor_content_filtering": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_play_history_shuffle_scorer": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_reset_track_sequence_on_advance_and_skip_for_sequence_player_tracks": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_sequence_player_routing": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::enable_sillywalk_rules": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-player::play_history_shuffle_scorer_context_history_track_count": {
+    "type": "int",
+    "value": 40
+  },
+  "core-player::play_history_shuffle_scorer_context_track_count": {
+    "type": "int",
+    "value": 20
+  },
+  "core-player::play_history_shuffle_scorer_history_track_count": {
+    "type": "int",
+    "value": 80
+  },
+  "core-playlist-feature::allow_backend_controlled_resync": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::allow_forced_playlist_cache_refresh": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::allow_playlist_permission_pubsub_updates": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-playlist-feature::always_set_enhanced_context_metadata_during_local_playback": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::auto_load_external_lists": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::backoff_time_before_re_requesting_5xx_item_metadata_exts_s": {
+    "type": "int",
+    "value": 60
+  },
+  "core-playlist-feature::enable_volatile_ctx_updates_for_matching_ctx_ids": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::min_time_between_reconnections_to_allow_auto_resync_s": {
+    "type": "int",
+    "value": 3600
+  },
+  "core-playlist-feature::playlist_context_updater_enabled": {
+    "type": "str",
+    "value": "WhenVolatileContextIsNotActive"
+  },
+  "core-playlist-feature::playlist_play_context_uri_vs_url_choice": {
+    "type": "str",
+    "value": "OnlyUrl"
+  },
+  "core-playlist-feature::playlist_sync_events_logging_level": {
+    "type": "str",
+    "value": "Disabled"
+  },
+  "core-playlist-feature::request_implicit_item_extensions": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::should_offline_content_agnostic_trait": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::should_rate_limit_show_requests": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-playlist-feature::tracklist_rebuilds_on_collection_changes": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-playlist-feature::tracks_loader_refreshes_expired_metadata_in_albums": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-playlist-feature::yell_on_list_platform": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-podcast-ads-feature::disable_ads_for_audiobook_chapters": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-podcast-ads-feature::enable_podcast_inter_episode_cold_start_preroll": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-podcast-ads-feature::metadata_blocking_duration": {
+    "type": "int",
+    "value": 700
+  },
+  "core-podcast-ads-feature::podcast_preroll_ad_playback_blocking_duration": {
+    "type": "int",
+    "value": 750
+  },
+  "core-podcast-ads::activation_strategy": {
+    "type": "str",
+    "value": "late_mobius"
+  },
+  "core-podcast-ads::fetch_cold_start_preroll_ad": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-podcast-ads::podcast_adt_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "core-podcast-ads::send_ad_opportunity_event": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-podcast-ads::video_support": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-prefetch-feature::media_prefetcher_cache_error_disable_seconds": {
+    "type": "int",
+    "value": 300
+  },
+  "core-prefetch-feature::media_prefetcher_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-prefetch-feature::media_prefetcher_feature_ads_window_size": {
+    "type": "int",
+    "value": 4
+  },
+  "core-prefetch-feature::prefetch_allow_all_keys_experiment": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-puffin::enable_puffin": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-puffin::flush_on_filter_set": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-remote-config::dummy_fruit_example": {
+    "type": "str",
+    "value": "Grapefruit"
+  },
+  "core-resumption::progress_esperanto_use_timekeeper": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-show-context-loader-feature::show_context_loader": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-show-cosmos::show_request_optimization_level": {
+    "type": "str",
+    "value": "None"
+  },
+  "core-show-cosmos::show_request_use_resumption_progress": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-storage::expiry_unlock_grace_music": {
+    "type": "int",
+    "value": 129600
+  },
+  "core-stream-reporting-feature::send_uct_streamed_decision": {
+    "type": "bool",
+    "value": 1
+  },
+  "core-time-stretcher-advanced-feature::time_stretcher_engine": {
+    "type": "str",
+    "value": "Finer"
+  },
+  "core-track-info-provider-feature::batch_album_v4_lookups": {
+    "type": "bool",
+    "value": 1
+  },
+  "cpp-player-rendering-renderer::dont_pause_stopping_track": {
+    "type": "bool",
+    "value": 1
+  },
+  "cpp-player-rendering-renderer::set_actual_position_on_track_end": {
+    "type": "bool",
+    "value": 1
+  },
+  "debug-feature::unauth_color": {
+    "type": "str",
+    "value": "green"
+  },
+  "equalizer::enable_equalizer": {
+    "type": "bool",
+    "value": 1
+  },
+  "explicitfeedback::backend_integration": {
+    "type": "str",
+    "value": "both"
+  },
+  "music-libs-pageloader-for-music::reset_load_state": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::adaptive_caching_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::boombox_audiosink": {
+    "type": "str",
+    "value": "enabled_with_normalization"
+  },
+  "music-libs-video::feature_type_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::feed_audio_buffer_size": {
+    "type": "int",
+    "value": 5000
+  },
+  "music-libs-video::feed_video_buffer_size": {
+    "type": "int",
+    "value": 8000
+  },
+  "music-libs-video::kill_switch_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::mux_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::preserve_time_offset_from_live": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::seek_frames_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::shorter_initial_buffer_duration": {
+    "type": "int",
+    "value": 250
+  },
+  "music-libs-video::shorter_initial_buffer_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::shorter_initial_buffer_size": {
+    "type": "int",
+    "value": 1500
+  },
+  "music-libs-video::standalone_video_buffer_size": {
+    "type": "int",
+    "value": 20000
+  },
+  "music-libs-video::subtitles_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "music-libs-video::timekeeper_sampling_rate": {
+    "type": "int",
+    "value": 100
+  },
+  "on-tour::enable_reranked_on_tour_card": {
+    "type": "bool",
+    "value": 1
+  },
+  "on-tour::enable_tablet_redesign": {
+    "type": "bool",
+    "value": 1
+  },
+  "premium-destination::premium_tab_shows_on_tablets": {
+    "type": "bool",
+    "value": 1
+  },
+  "premium-destination::use_new_pdp": {
+    "type": "bool",
+    "value": 1
+  },
+  "puffin-access::puffin_background_service_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "rc-observable-aa-test::non_observable_property": {
+    "type": "str",
+    "value": "Blue"
+  },
+  "rc-observable-aa-test::observable_property": {
+    "type": "str",
+    "value": "Teal"
+  },
+  "sleeptimer-dialogs::enable_sleeptimer_dialogs": {
+    "type": "bool",
+    "value": 1
+  },
+  "sleeptimer-handler::enable_sleeptimer_fade_out": {
+    "type": "bool",
+    "value": 1
+  },
+  "spotify-voting::should_navigate_to_share_page": {
+    "type": "bool",
+    "value": 1
+  },
+  "update-email::email_update_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "watch-feed-playlist-section::spotify_playlist_check_enabled": {
+    "type": "bool",
+    "value": "EMPTY"
+  },
+  "watch-feed-playlist-section::watchfeed_playlist_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "your-library::audiobook_finished_filter_enabled": {
+    "type": "bool",
+    "value": 1
+  },
+  "your-library::enable_live_events": {
+    "type": "bool",
+    "value": 1
+  },
+  "your-library::ignore_your_library_service_header_loading_flag": {
+    "type": "bool",
+    "value": 1
+  },
+  "your-library::show_finished_checkmark": {
+    "type": "bool",
+    "value": 1
+  },
+  "your-library::use_audiobook_entity_row_and_card": {
+    "type": "bool",
+    "value": 1
+  }
+}

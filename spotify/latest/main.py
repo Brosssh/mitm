@@ -18,4 +18,6 @@ def request(flow: http.HTTPFlow) -> None:
 
 def response(flow: http.HTTPFlow) -> None:
     if "user-customization-servi" in flow.request.pretty_url:
-        spoof_premium(flow)
+        #spoof_premium(flow)
+        with open("dump_premium", "r") as f:
+            flow.response.content = bytes.fromhex(f.read())
