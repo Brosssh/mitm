@@ -2,16 +2,7 @@ protoc:
 	protoc --python_out=. proto/spotify.proto 
 
 intercept:
-	mitmproxy -s main.py 
+	mitmproxy -s main.py -s bbpb.py 
 
 intercept-web:
-	mitmweb -s main.py 
-
-bb:
-	mitmproxy -s bbpb.py 
-
-bb-web:
-	mitmweb -s bbpb.py 
-
-test:
-	python patches/unlock_trial/test.py
+	mitmweb -s main.py -s bbpb.py 

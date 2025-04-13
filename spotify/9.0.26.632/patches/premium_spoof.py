@@ -10,6 +10,9 @@ patches = [
     ('"1":"player-license","2":{"4":"mft","6":1}', '"1":"player-license","2":{"4":"premium","6":1}'),
     ('"1":"streaming-rules","2":{"4":"shuffle-mode","6":1}', '"1":"streaming-rules","2":{"4":"","6":1}'),
     ('"1":"ads","2":{"2":1,"6":1}', '"1":"ads","2":{"2":0,"6":1}'),
+    ('"1":"catalogue","2":{"4":"free",', '"1":"catalogue","2":{"4":"premium",'),
+    ('"1":{"1":"android-playlist-creation-createplaylistmenuimpl","2":"create_button_position"},"2":{"1":333216,"2":"exp-planner","3":1224522},"5":{"1":"right"}',
+    '"1":{"1":"android-playlist-creation-createplaylistmenuimpl","2":"create_button_position"},"2":{"1":333216,"2":"exp-planner","3":1224522},"5":{"1":"nowhere"}')
 ]
 
 def spoof_premium(flow: http.HTTPFlow):

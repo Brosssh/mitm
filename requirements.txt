@@ -1,3 +1,2 @@
-mitmproxy
 protobuf
 bbpb
